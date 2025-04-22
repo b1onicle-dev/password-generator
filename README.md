@@ -37,7 +37,7 @@ A simple password generator application built with Go and the Fyne GUI toolkit.
 
 3.  **Clone the Repository (Optional):**
     ```bash
-    git clone https://github.com/b1onicle-dev/password-generator # Replace with your actual repo URL
+    git clone https://github.com/b1onicle-dev/password-generator
     cd password-generator
     ```
 
@@ -66,7 +66,7 @@ A simple password generator application built with Go and the Fyne GUI toolkit.
 
 3.  **Clone the Repository (Optional):**
     ```bash
-    git clone https://github.com/b1onicle/password-generator # Replace with your actual repo URL
+    git clone https://github.com/b1onicle/password-generator
     cd password-generator
     ```
 
