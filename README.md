@@ -10,14 +10,6 @@ A simple password generator application built with Go and the Fyne GUI toolkit.
 *   "Copy to Clipboard" button for easily copying the generated password.
 *   Simple and cross-platform user interface.
 
-## Screenshot
-
-*(Optional: Add a screenshot of the application here)*
-
-```
-[Screenshot placeholder]
-```
-
 ## Installation
 
 ### Prerequisites
