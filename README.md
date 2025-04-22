@@ -25,14 +25,6 @@ A simple, cross-platform password generator application built with Go and the Fy
     *   Structured layout using cards and forms.
     *   Cross-platform native look and feel.
 
-## Screenshot
-
-*(Optional: Add a screenshot of the application here)*
-
-```
-[Screenshot placeholder]
-```
-
 ## Installation
 
 ### Prerequisites
@@ -60,7 +52,7 @@ A simple, cross-platform password generator application built with Go and the Fy
 
 3.  **Clone the Repository (Optional):**
     ```bash
-    git clone https://github.com/b1onicle-dev/password-generator # Replace with your actual repo URL
+    git clone https://github.com/b1onicle-dev/password-generator
     cd password-generator
     ```
 
@@ -89,7 +81,7 @@ A simple, cross-platform password generator application built with Go and the Fy
 
 3.  **Clone the Repository (Optional):**
     ```bash
-    git clone https://github.com/b1onicle/password-generator # Replace with your actual repo URL
+    git clone https://github.com/b1onicle/password-generator
     cd password-generator
     ```
 
