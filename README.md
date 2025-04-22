@@ -1,14 +1,37 @@
 # Password Generator (Go + Fyne)
 
-A simple password generator application built with Go and the Fyne GUI toolkit.
+A simple, cross-platform password generator application built with Go and the Fyne GUI toolkit.
 
 ## Features
 
-*   Adjustable password length using a slider (4-64 characters).
-*   Options to include uppercase letters, lowercase letters, digits, and symbols.
-*   Generates cryptographically secure random passwords.
-*   "Copy to Clipboard" button for easily copying the generated password.
-*   Simple and cross-platform user interface.
+*   **Password Generation:**
+    *   Adjustable password length using a slider (4-64 characters).
+    *   Options to include uppercase letters, lowercase letters, digits, and symbols.
+    *   Generates cryptographically secure random passwords.
+    *   Password strength indicator (Weak, Medium, Strong, Very Strong) with color coding.
+    *   "Copy to Clipboard" button with icon.
+    *   "Generate" button with icon.
+*   **Password History:**
+    *   Automatically saves generated passwords locally.
+    *   History view with individual password deletion.
+    *   "Clear History" button.
+*   **Settings:**
+    *   Switch between Light and Dark themes.
+    *   Set maximum history size (20, 50, 100, Unlimited).
+    *   Option to require confirmation before clearing history.
+    *   Define a custom set of symbols for generation.
+*   **Interface:**
+    *   Modern tabbed interface (Generate, History, Settings, About).
+    *   Structured layout using cards and forms.
+    *   Cross-platform native look and feel.
+
+## Screenshot
+
+*(Optional: Add a screenshot of the application here)*
+
+```
+[Screenshot placeholder]
+```
 
 ## Installation
 
@@ -37,7 +60,7 @@ A simple password generator application built with Go and the Fyne GUI toolkit.
 
 3.  **Clone the Repository (Optional):**
     ```bash
-    git clone https://github.com/b1onicle-dev/password-generator
+    git clone https://github.com/b1onicle-dev/password-generator # Replace with your actual repo URL
     cd password-generator
     ```
 
@@ -66,7 +89,7 @@ A simple password generator application built with Go and the Fyne GUI toolkit.
 
 3.  **Clone the Repository (Optional):**
     ```bash
-    git clone https://github.com/b1onicle/password-generator
+    git clone https://github.com/b1onicle/password-generator # Replace with your actual repo URL
     cd password-generator
     ```
 
@@ -82,7 +105,12 @@ After building, run the executable file created:
 *   **Linux:** `./passwordgen` (or whatever the executable is named)
 *   **Windows:** `passwordgen.exe`
 
-Use the slider to set the desired password length and check the boxes for the character types you want to include. Click "Generate" to create a new password. Click "Copy" to copy it to your clipboard.
+Navigate through the tabs:
+
+*   **Generate:** Use the slider and checkboxes to configure password options. Click "Generate". Use the "Copy" button to copy the password. The strength indicator will update automatically.
+*   **History:** View previously generated passwords. Click the delete icon next to a password to remove it individually. Use the "Clear History" button at the bottom to remove all entries (respects the confirmation setting).
+*   **Settings:** Adjust application theme, history limit, confirmation preference, and custom symbols.
+*   **About:** View application version, developer info, and a link to the GitHub repository.
 
 ## Contributing
 
